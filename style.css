@@ -13,18 +13,35 @@ body, html {
     color: #cccccc;
   }
 
+header{
+  background-image: linear-gradient(#2633258f, #48723b98);
+  /* The navigation bar */
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  opacity: 0.8;
+}
+
+
+
 #title{
   text-align: center;
   padding: 10px;
-  background-image: linear-gradient(#263325, #48723b);
+  opacity: 1;
+  color: #ffffff;
 }
 #description{
   text-align: center;
-  margin: 10px;
+  margin: 5px;
+  /* background-image: linear-gradient(#26332571, #48723b8c); */
 }
   
 
 body{
+
+    
     font-family: 'Raleway', sans-serif;
     box-shadow: inset 0 0 20em 10em #000;
     background-image: url("img/amirali-mirhashemian-ZSukCSw5VV4-unsplash.jpg"), linear-gradient(#eb01a5, #d13531);
@@ -45,7 +62,7 @@ body{
     /* margin: 5vw; */
 
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
     width: 100%;
     padding: 0 20px;
@@ -54,7 +71,7 @@ body{
 
   #survey-form{
 
-    max-width: 550px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 30px;
     border-radius: 5px;
